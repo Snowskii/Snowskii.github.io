@@ -1,0 +1,56 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: #081b29;
+    color:#ededed;
+}
+
+.home {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 20%;
+    padding: 10%;
+    align-items: center;
+}
+
+.home-text h1 {
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.home-text p {
+    font-size: 16px;
+    font-weight: 300;
+    margin: 5px 10px 10px;
+}
+
+
+.home-text .btn-box {
+    display: flex;
+    margin-top: 2%;
+    justify-content: space-between;
+    width: 330px;
+    height: 30px;
+}
+
+.btn-box a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    background: #00abf0;
+    border: 2px solid #00abf0;
+    border-radius: 8px;
+    font-size: 19px;
+    color: #081b29;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
