@@ -4,8 +4,6 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/photographystyle.css">
-    <link rel="stylesheet" href="css/lightbox-min.css">
-    <script src="js/lightbox-plus-jquery.min.js"></script>
 </head>
 
 <body>
@@ -17,56 +15,75 @@
 
 <h2>Portfolio</h2>
 
-<div id="myBtnContainer">
-  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
-  <button class="btn" onclick="filterSelection('beerpong')"> BeerPong</button>
-  <button class="btn" onclick="filterSelection('pl')"> MunieLeaders</button>
-  <button class="btn" onclick="filterSelection('grex')"> The Grex</button>
-  <button class="btn" onclick="filterSelection('personal')"> Personal</button>
-</div>
-
 <!-- Portfolio Gallery Grid -->
 <div class="row">
-    <div class="column beerpong"><div class="content"><a href="Gallery/BeerPong/beerpong (1).jpg" data-lightbox="content"><img src="Gallery/BeerPong/beerpong (1).jpg" style="width:100%"></a></div></div>
-    <div class="column beerpong"><div class="content"><a href="Gallery/BeerPong/beerpong (2).jpg" data-lightbox="content"><img src="Gallery/BeerPong/beerpong (2).jpg" style="width:100%"></a></div></div>
-    <div class="column beerpong"><div class="content"><a href="Gallery/BeerPong/beerpong (3).jpg" data-lightbox="content"><img src="Gallery/BeerPong/beerpong (3).jpg" style="width:100%"></a></div></div>
-    <div class="column beerpong"><div class="content"><a href="Gallery/BeerPong/beerpong (4).jpg" data-lightbox="content"><img src="Gallery/BeerPong/beerpong (4).jpg" style="width:100%"></a></div></div>
-    <div class="column beerpong"><div class="content"><a href="Gallery/BeerPong/beerpong (5).jpg" data-lightbox="content"><img src="Gallery/BeerPong/beerpong (5).jpg" style="width:100%"></a></div></div>
-    <div class="column beerpong"><div class="content"><a href="Gallery/BeerPong/beerpong (6).jpg" data-lightbox="content"><img src="Gallery/BeerPong/beerpong (6).jpg" style="width:100%"></a></div></div>
-    <div class="column beerpong"><div class="content"><a href="Gallery/BeerPong/beerpong (7).jpg" data-lightbox="content"><img src="Gallery/BeerPong/beerpong (7).jpg" style="width:100%"></a></div></div>
-    <div class="column beerpong"><div class="content"><a href="Gallery/BeerPong/beerpong (8).jpg" data-lightbox="content"><img src="Gallery/BeerPong/beerpong (8).jpg" style="width:100%"></a></div></div>
-    <div class="column beerpong"><div class="content"><a href="Gallery/BeerPong/beerpong (9).jpg" data-lightbox="content"><img src="Gallery/BeerPong/beerpong (9).jpg" style="width:100%"></a></div></div>
+    <div class="column">
+        <div class="content">
+            <a href="/galleryBeerPong.html">
+                <img src="Gallery/beerpong.jpg" style="width:100%">
+            </a>
+            <p>BeerPong</p>
+        </div>
+    </div>
 
-    <div class="column pl"><div class="content"><a href="Gallery/PhotoshootMunieLeaders/PL (1).jpg" data-lightbox="content"><img src="Gallery/PhotoshootMunieLeaders/PL (1).jpg" style="width:100%"></a></div></div>
-    <div class="column pl"><div class="content"><a href="Gallery/PhotoshootMunieLeaders/PL (2).jpg" data-lightbox="content"><img src="Gallery/PhotoshootMunieLeaders/PL (2).jpg" style="width:100%"></a></div></div>
-    <div class="column pl"><div class="content"><a href="Gallery/PhotoshootMunieLeaders/PL (3).jpg" data-lightbox="content"><img src="Gallery/PhotoshootMunieLeaders/PL (3).jpg" style="width:100%"></a></div></div>
-    <div class="column pl"><div class="content"><a href="Gallery/PhotoshootMunieLeaders/PL (4).jpg" data-lightbox="content"><img src="Gallery/PhotoshootMunieLeaders/PL (4).jpg" style="width:100%"></a></div></div>
-    <div class="column pl"><div class="content"><a href="Gallery/PhotoshootMunieLeaders/PL (5).jpg" data-lightbox="content"><img src="Gallery/PhotoshootMunieLeaders/PL (5).jpg" style="width:100%"></a></div></div>
-    <div class="column pl"><div class="content"><a href="Gallery/PhotoshootMunieLeaders/PL (6).jpg" data-lightbox="content"><img src="Gallery/PhotoshootMunieLeaders/PL (6).jpg" style="width:100%"></a></div></div>
-    <div class="column pl"><div class="content"><a href="Gallery/PhotoshootMunieLeaders/PL (7).jpg" data-lightbox="content"><img src="Gallery/PhotoshootMunieLeaders/PL (7).jpg" style="width:100%"></a></div></div>
-    <div class="column pl"><div class="content"><a href="Gallery/PhotoshootMunieLeaders/PL (8).jpg" data-lightbox="content"><img src="Gallery/PhotoshootMunieLeaders/PL (8).jpg" style="width:100%"></a></div></div>
-    <div class="column pl"><div class="content"><a href="Gallery/PhotoshootMunieLeaders/PL (9).jpg" data-lightbox="content"><img src="Gallery/PhotoshootMunieLeaders/PL (9).jpg" style="width:100%"></a></div></div>
+    <div class="column">
+        <div class="content">
+            <a href="/galleryPL.html">
+                <img src="Gallery/PL.jpg" style="width:100%">
+            </a>
+            <p>Munie Leadership</p>
+        </div>
+    </div>
 
-    <div class="column grex"><div class="content"><a href="Gallery/TheGrex/grex (1).jpg" data-lightbox="content"><img src="Gallery/TheGrex/grex (1).jpg" style="width:100%"></a></div></div>
-    <div class="column grex"><div class="content"><a href="Gallery/TheGrex/grex (2).jpg" data-lightbox="content"><img src="Gallery/TheGrex/grex (2).jpg" style="width:100%"></a></div></div>
-    <div class="column grex"><div class="content"><a href="Gallery/TheGrex/grex (3).jpg" data-lightbox="content"><img src="Gallery/TheGrex/grex (3).jpg" style="width:100%"></a></div></div>
-    <div class="column grex"><div class="content"><a href="Gallery/TheGrex/grex (4).jpg" data-lightbox="content"><img src="Gallery/TheGrex/grex (4).jpg" style="width:100%"></a></div></div>
-    <div class="column grex"><div class="content"><a href="Gallery/TheGrex/grex (5).jpg" data-lightbox="content"><img src="Gallery/TheGrex/grex (5).jpg" style="width:100%"></a></div></div>
-    <div class="column grex"><div class="content"><a href="Gallery/TheGrex/grex (6).jpg" data-lightbox="content"><img src="Gallery/TheGrex/grex (6).jpg" style="width:100%"></a></div></div>
-    <div class="column grex"><div class="content"><a href="Gallery/TheGrex/grex (7).jpg" data-lightbox="content"><img src="Gallery/TheGrex/grex (7).jpg" style="width:100%"></a></div></div>
-    <div class="column grex"><div class="content"><a href="Gallery/TheGrex/grex (8).jpg" data-lightbox="content"><img src="Gallery/TheGrex/grex (8).jpg" style="width:100%"></a></div></div>
-    <div class="column grex"><div class="content"><a href="Gallery/TheGrex/grex (9).jpg" data-lightbox="content"><img src="Gallery/TheGrex/grex (9).jpg" style="width:100%"></a></div></div>
+    <div class="column">
+        <div class="content">
+            <a href="/galleryUnofficialWeddingPhotographer.html">
+                <img src="Gallery/wedding.jpg" style="width:100%">
+            </a>
+            <p>Wedding</p>
+        </div>
+    </div>
 
-    <div class="column personal"><div class="content"><a href="https://drive.google.com/thumbnail?id=1S55ST5cm0QO3aPJa8wqrSa3CmE8vTqyR" data-lightbox="content"><img src="https://drive.google.com/thumbnail?id=1S55ST5cm0QO3aPJa8wqrSa3CmE8vTqyR" style="width:100%"></a></div></div>
-    <div class="column personal"><div class="content"><a href="Gallery/TheGrex/grex (2).jpg" data-lightbox="content"><img src="Gallery/TheGrex/grex (2).jpg" style="width:100%"></a></div></div>
-    <div class="column personal"><div class="content"><a href="Gallery/TheGrex/grex (3).jpg" data-lightbox="content"><img src="Gallery/TheGrex/grex (3).jpg" style="width:100%"></a></div></div>
+    <div class="column">
+        <div class="content">
+            <a href="/galleryGrex.html">
+                <img src="Gallery/grex.jpg" style="width:100%">
+            </a>
+            <p>The Grex</p>
+        </div>
+    </div>
+
+    <div class="column">
+        <div class="content">
+            <a href="/galleryPersonal.html">
+                <img src="Gallery/Kira.png" style="width:100%">
+            </a>
+            <p>Personal</p>
+        </div>
+    </div>
+
+    <div class="column">
+        <div class="content">
+            <a href="/galleryBookClub.html">
+                <img src="Gallery/bookclub.jpg" style="width:100%">
+            </a>
+            <p>Munie Book Club</p>
+        </div>
+    </div>
+
+    <div class="column">
+        <div class="content">
+            <a href="/galleryTedXMas.html">
+                <img src="Gallery/tedxmas.jpg" style="width:100%">
+            </a>
+            <p>TedXMas</p>
+        </div>
+    </div>
 <!-- END GRID -->
 </div>
 
 <!-- END MAIN -->
 </div>
-
-<script src="js/filterscript.js"></script>
 
 </body>
 
