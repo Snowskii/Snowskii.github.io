@@ -34,6 +34,7 @@ h1 {
     float: left;
     width: 33.33%;
     align-items: center;
+    min-width: 200px;
 }
 
 .column p {
