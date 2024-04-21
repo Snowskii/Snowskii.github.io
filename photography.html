@@ -1,19 +1,63 @@
 <!DOCTYPE html>
-<html lang ="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio Website</title>
-    <link rel="stylesheet" href="photographystyle.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/photographystyle.css">
+    <link rel="stylesheet" href="css/lightbox-min.css">
 </head>
 
 <body>
-    <div>
-        <p>HEllo</p>
+
+<div class="main">
+
+<h1>Michaels.Workshop</h1>
+<hr>
+
+<h2>Portfolio</h2>
+
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('nature')"> Nature</button>
+  <button class="btn" onclick="filterSelection('cars')"> Cars</button>
+  <button class="btn" onclick="filterSelection('people')"> People</button>
+</div>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+    <div class="column beerpong">
+        <div class="content">
+            <a href="Gallery/Portrait.jpg" data-lightbox="content"><img src="Gallery/Portrait.jpg" style="width:100%"></a>
+        </div>
     </div>
-    
+    <div class="column cars">
+        <div class="content">
+            <img src="Gallery/p1.jpg" alt="Lights" style="width:100%">
+        </div>
+    </div>
+    <div class="column cars">
+        <div class="content">
+            <img src="Gallery/Portrait.jpg" alt="Nature" style="width:100%">
+        </div>
+    </div>
+    <div class="column people">
+        <div class="content">
+            <a href="Gallery/Portrait.jpg"><img src="Gallery/Portrait.jpg" style="width:100%"></a>
+        </div>
+    </div>
+    <div class="column people">
+        <div class="content">
+            <a href="Gallery/Portrait.jpg"><img src="Gallery/Portrait.jpg" style="width:100%"></a>
+        </div>
+    </div>
+<!-- END GRID -->
+</div>
+
+<!-- END MAIN -->
+</div>
+
+<script src="js/filterscript.js"></script>
+
 </body>
-    
+
 </html>
